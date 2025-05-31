@@ -5,5 +5,5 @@
       "runtime": "@godsreveal/vercel-bun@0.1.0"
     }
   },
-  "rewrites": [{ "source": "/api/(.*)", "destination": "/api/index.ts" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/index.ts" }]
 }
